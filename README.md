@@ -9,3 +9,5 @@ As an outcome the file shall print the character inputted in the place the lette
 The program will involve the usage of input/output file management (when reading and when finishing to execute), lists (when evaluating character in word), recursions (when executing and reading lists) and pattern matching (for list usage) to solve the problem.
 
 link: https://github.com/LaHans99/HangMan
+
+[hangman.zip](https://github.com/LaHans99/HangMan/files/9224014/hangman.zip)
