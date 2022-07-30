@@ -36,6 +36,7 @@ def recursive_man(word, guess, wordrevel) do
           new_guess=IO.gets("Ingrese una nueva letra")
           recursive_man(word, String.trim(new_guess), Enum.join(wordrevel, ""))
         else
+          wordrevel = String.codepoints(wordrevel)
           IO.puts("Prueba con otra letra")
           new_guess=IO.gets("Ingrese una nueva letra")
           recursive_man(word, String.trim(new_guess), Enum.join(wordrevel, ""))
