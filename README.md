@@ -1,5 +1,5 @@
 # Hangman
-                                                                                                                       THE HANGMAN
+                                                                                                                  THE HANGMAN
 Hannia Ortega Samaniego 
 A01283410
 Guillermo Daniel Ceballos Anguiano
