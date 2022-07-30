@@ -14,7 +14,7 @@ def helper_man([hda|tla], guess, [hd_word|tl_word]) do
     hda == guess -> [hda] ++ helper_man(tla, guess, tl_word)
     hda != guess -> ["_"] ++ helper_man(tla, guess, tl_word)
   end
-end
+end 
 
 #Recursive hangman:
 def recursive_man(word, guess, wordrevel) do
