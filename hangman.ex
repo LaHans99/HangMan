@@ -1,6 +1,6 @@
 defmodule Hangman do
 #hannia ortega samaniego.   A01283410
-#daniel Anguiano A01732113
+#guillermo daniel ceballos anguiano A01732113
   @moduledoc """
   Documentation for `Hangman`.
   """
