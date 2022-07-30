@@ -2,29 +2,7 @@
 
 
 defmodule Hangman do
-  @moduledoc """
-  Documentation for `Hangman`.
-  """
-  @doc """
-
-  """
-  #Works with a tuple.
-  # def score_guess({word, correct, wrong, attempts}, guess) do
-  #   #Using ~ to check if word contains correct value:
-  #     if word =~ guess do
-  #       if correct =~ guess do
-  #         {word, correct, wrong, attempts}
-  #       else
-  #         {word, correct<>guess, wrong, attempts}
-  #       end
-  #   else
-  #       if wrong =~ guess do
-  #         {word, correct, wrong, attempts}
-  #       else
-  #         {word, correct, wrong<>guess, attempts - 1}
-  #       end
-  #   end
-  # end
+ 
 
 def helper_man([],_guess,[]) do
   []
